@@ -6,11 +6,11 @@ var value;
 
 a = prompt('liczba a');
 b = prompt('liczba b');
-value = (a*a) + (2 * a * b) - (b*b);
+value = (a * a) + (2 * a * b) - (b * b);
 
-	console.log('(a*a) + (2 * a * b) - (b*b)');
-	console.log(value); 
-document.getElementById('demo').innerHTML = value; // wyswietlam wynik poza konsola
+console.log('(a * a) + (2 * a * b) - (b * b)');
+console.log(value); 
+document.getElementById('demo').innerHTML = value; // In addition the console displays the result
 
 if (value > 0) { 
 	console.log('wynik dodatni'); 
